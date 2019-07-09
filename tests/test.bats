@@ -1,5 +1,5 @@
 #!/usr/bin/env bats
 
 @test "--" {
-	echo $(./test.js -a before -- after -a arg )|grep ',"before","--","after","-a","arg"]'
+	test $(./test.js -a before -- after -a arg ) == '["before","--","after","-a","arg"]'
 }
