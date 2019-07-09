@@ -1,39 +1,14 @@
 {
-  "_from": "getopt",
-  "_id": "getopt@0.1.0",
-  "_inBundle": false,
-  "_integrity": "sha1-FK+CqHoBXmOHeisOoUfiarU/gGw=",
-  "_location": "/getopt",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "getopt",
-    "name": "getopt",
-    "escapedName": "getopt",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/getopt/-/getopt-0.1.0.tgz",
-  "_shasum": "14af82a87a015e63877a2b0ea147e26ab53f806c",
-  "_spec": "getopt",
-  "_where": "/Users/user/Desktop/partpipe",
   "author": {
-    "name": "Diogo Resende",
-    "email": "dresende@thinkdigital.pt",
-    "url": "http://www.thinkdigital.pt"
+    "name": "@kssfilo",
+    "url": "https://kanasys.com/gtech/"
   },
   "bugs": {
-    "url": "https://github.com/dresende/node-getopt/issues"
+    "url": "https://github.com/kssfilo/getopt/issues"
   },
   "bundleDependencies": false,
   "deprecated": false,
-  "description": "NodeJS command line 'parser'",
+  "description": "NodeJS command line 'parser' (forked for -- separator support from great dresende's version)",
   "directories": {
     "lib": "./lib",
     "example": "./examples"
@@ -41,27 +16,35 @@
   "engines": {
     "node": ">= 0.4.0"
   },
-  "homepage": "https://github.com/dresende/node-getopt#readme",
+  "homepage": "https://github.com/kssfilo/getopt",
   "keywords": [
     "getopt",
     "command",
     "console",
-    "parameter"
+    "parameter",
+	"double hyphen",
+	"--",
+	"argument",
+	"arguments",
+	"getopts",
+	"option",
+	"options",
+	"parseparser"
   ],
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/dresende/node-getopt/raw/master/LICENSE"
+      "url": "https://github.com/kssfilo/getopt/raw/master/LICENSE"
     }
   ],
   "main": "./lib/getopt",
-  "name": "getopt",
+  "name": "@kssfilo/getopt",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/dresende/node-getopt.git"
+    "url": "git+ssh://git@github.com/kssfilo/getopt.git"
   },
-  "version": "0.1.0",
-  "dependencies": {
+  "version": "0.2.0",
+  "devDependencies": {
     "bats": "^1.1.0"
   }
 }
