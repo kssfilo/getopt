@@ -22,14 +22,14 @@
     "command",
     "console",
     "parameter",
-	"double hyphen",
-	"--",
-	"argument",
-	"arguments",
-	"getopts",
-	"option",
-	"options",
-	"parseparser"
+    "double hyphen",
+    "--",
+    "argument",
+    "arguments",
+    "getopts",
+    "option",
+    "options",
+    "parseparser"
   ],
   "licenses": [
     {

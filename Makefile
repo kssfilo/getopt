@@ -1,6 +1,6 @@
 BATS=node_modules/.bin/bats
 
-test:|node_modules/
+test:|$(BATS)
 	cd tests;../$(BATS) test.bats
 
 clean:
