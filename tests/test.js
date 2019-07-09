@@ -2,14 +2,18 @@
 
 getopt=require('../lib/getopt');
 
-options="a";
+options="ab:c::";
 
 getopt.setopt(options);
 var a=null
 dump=function(obj){console.log(JSON.stringify(obj))};
+opts={}
 
-getopt.getopt(function(o,p){
-});
+getopt.getopt(function(o,p){opts[o]=p});
 
-dump(getopt.params());
+if(getopt.params().indexOf("--")!=-1){
+	dump(getopt.params());
+}else{
+	dump(opts);
+}
 process.exit(0);
