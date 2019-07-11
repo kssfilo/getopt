@@ -61,6 +61,7 @@ Difference from original version is
 
 - if double hyphen (--) is in arguments , remaining arguments will be pushed into the params array which able to get from opt.param() evenif that is started from hyphen(-)
 - also stores double hyphen "--" into param() array for detecting separation point from user program.
+- optional parameter (-d's p in the example) is always Array evenif the parameter is omited.[""] 
 
 e.g. 
 
